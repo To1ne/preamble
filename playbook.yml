@@ -5,6 +5,6 @@
     - databases
     - nginx
     - ruby
-    - ios
-    - mail
+#    - ios
+#    - mail
     - osx
