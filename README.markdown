@@ -29,11 +29,12 @@ I've also tried to add some tags, so you can target specific parts of it (`ansib
 
 Available tags:
 
-- ios (Installs everything related to iOS)
-- mail (Installs mutt and friends)
-- nginx (Install nginx and dnsmasq, requires root)
-- ruby (Install rubies)
-- phantomjs (Install phantomjs)
-- osx (Installs os x applications, and also `capslock` and `defaults`)
-- capslock (Remaps capslock to control)
-- defaults (Sets Finder defaults)
+- `ios` (Installs everything related to iOS)
+- `mail` (Installs mutt and friends)
+- `nginx` (Install nginx and dnsmasq, requires root)
+- `ruby` (Install rubies)
+- `phantomjs` (Install phantomjs)
+- `osx` (Installs os x applications, and also `capslock` and `defaults`)
+- `capslock` (Remaps capslock to control)
+- `defaults` (Sets Finder defaults)
+- `utils` (Installs common utils)
