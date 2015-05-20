@@ -10,6 +10,9 @@
 - name: Update homebrew
   homebrew: update_homebrew=yes
 
+- name: Tap homebrew cask
+  homebrew_tap: tap=caskroom/cask state=present
+
 - name: Install homebrew cask
   homebrew: name="brew-cask" state=latest
 
@@ -34,8 +37,8 @@
     - node   # So I can use npm later on
     - git-flow
 
-- name: Install pure (simple and sleak prompt)
-  npm: name=pure-prompt global=yes
+#- name: Install pure (simple and sleak prompt)
+#  npm: name=pure-prompt global=yes
 
 - name: Tap homebrew fonts
   homebrew_tap: tap=caskroom/fonts state=present

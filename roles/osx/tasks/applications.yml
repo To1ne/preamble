@@ -40,3 +40,6 @@
 #    - mactex                       # Hmm, LaTeX.
 #    - dropshare                    # Take back control of image sharing
     - slack                        # I still miss campfire. /play sexyback
+    - secrets                      # Write defaults from the System Preferences
+    - spectacle                    # Keyboard shortcuts for resizing windows
+    - mailbox                      # Mail client from the people of Dropbox
