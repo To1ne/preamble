@@ -34,8 +34,18 @@
     - heroku # Heroku Toolbelt
     - mosh   # [A better ssh (sometimes)](https://mosh.mit.edu)
     - tig    # A 'text-mode interface' for git. Bit more visual than regular git.
-    - node   # So I can use npm later on
+    - nvm    # Node.js version manager
     - git-flow
+    - hub    # Command line interface for GitHub (wrapper for `git`)
+    - tree   # I love this util for printing a tree of directories
+    - graphviz # To draw class diagrams
+    - httpie # Improved web service testing
+    - ispell # Spell checking in emacs
+    - clang  # Needs more clang
+    - llvm   # For emacs's company-mode
+    - cmake  # For emacs's company-mode
+    - imagemagick # Convert all the things
+    - trash  # Move to trash from the command line
 
 #- name: Install pure (simple and sleak prompt)
 #  npm: name=pure-prompt global=yes
