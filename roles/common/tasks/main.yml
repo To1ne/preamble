@@ -54,4 +54,7 @@
   homebrew_tap: tap=caskroom/fonts state=present
 
 - name: Install DejaVu Sans Mono
-  homebrew_cask: name=font-dejavu-sans
+  homebrew_cask: name={{ item }} state=present
+  with_items:
+    - font-dejavu-sans
+    - font-fira-code
