@@ -6,5 +6,5 @@
     - nginx
     - ruby
 #    - ios
-#    - mail
+    - mail
     - osx
