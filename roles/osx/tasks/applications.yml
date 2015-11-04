@@ -11,7 +11,7 @@
 - name: Install Applications
   homebrew_cask: name={{ item }} state=installed
   with_items:
-#    - google-chrome                # Mainly for it's handier shortcuts
+    - google-chrome                # For testing purposes
     - dropbox                      # Necessary evil
     - 1password                    # Password manager
 #    - adium                        # IM
@@ -19,9 +19,9 @@
     - firefox                      # mainly for testing purposes
     - iterm2                       # a better Terminal
 #    - arq                          # backup
-#    - spotify                      # music
-    - rdio                         # music
-#    - mailmate                     # gui mail
+    - spotify                      # music
+#    - rdio                         # music
+    - mailmate                     # gui mail
 #    - transmission                 # torrents
     - cyberduck                    # (s)ftp
     - daisydisk                    # disk usage
@@ -42,4 +42,8 @@
     - slack                        # I still miss campfire. /play sexyback
     - secrets                      # Write defaults from the System Preferences
     - spectacle                    # Keyboard shortcuts for resizing windows
-    - mailbox                      # Mail client from the people of Dropbox
+#    - mailbox                      # Mail client from the people of Dropbox
+    - sqwiggle                     # Video chatting
+    - viber                        # Messaging
+    - chitchat                     # More messaging (Whatsapp)
+
