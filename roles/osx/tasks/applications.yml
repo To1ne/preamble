@@ -1,49 +1,41 @@
-- name: Tap Railwaycat\'s emacs port
-  tags:
-     - emacs
-  homebrew_tap: tap=railwaycat/emacsmacport state=present
-
-- name: Install Railwaycat\'s emacs port
-  tags:
-     - emacs
-  homebrew: name=emacs-mac state=present install_options=with-modern-icon
-
 - name: Install Applications
   homebrew_cask: name={{ item }} state=installed
   with_items:
-    - google-chrome                # For testing purposes
-    - dropbox                      # Necessary evil
-    - 1password                    # Password manager
-#    - adium                        # IM
-#    - hipchat                      # not a fan, but needed
-    - firefox                      # mainly for testing purposes
-    - iterm2                       # a better Terminal
-#    - arq                          # backup
-    - spotify                      # music
-#    - rdio                         # music
-    - mailmate                     # gui mail
-#    - transmission                 # torrents
-    - cyberduck                    # (s)ftp
-    - daisydisk                    # disk usage
-    - base                         # sqlite browser
-    - colorpicker-developer        # A better color picker (easy access to html/UIColor)
-#    - vlc
-    - qlstephen                    # Quicklook any possible text file. You need this.
-    - calibre                      # Probably the best ebook app out there.
-#    - lastfm                       # My favorite social network to never visit.
-#    - omnigraffle                  # Mostly for wireframing
-#    - cloak                        # VPN without the hassle.
-    - the-unarchiver               # [A more capable unzip/rar/all_the_things-er](http://wakaba.c3.cx/s/apps/unarchiver)
-#    - xscreensaver                 # [jwz's collection of screensaver](http://www.jwz.org/xscreensaver/)
-#    - virtualbox
-#    - silverlight                  # sigh.
-#    - mactex                       # Hmm, LaTeX.
-#    - dropshare                    # Take back control of image sharing
-    - slack                        # I still miss campfire. /play sexyback
-    - secrets                      # Write defaults from the System Preferences
-    - spectacle                    # Keyboard shortcuts for resizing windows
-#    - mailbox                      # Mail client from the people of Dropbox
-    - sqwiggle                     # Video chatting
-    - viber                        # Messaging
-    - chitchat                     # More messaging (Whatsapp)
-
+  - 1password        # Password manager
+  - chromium         # Chrome, but less evil (I hope)
+  - cyberduck        # FTP
+  - dash             # offline documentation
+  - dropbox          # Files in the cloud
+  - firefox          # The best browser out there
+  - font-dejavu-sans # Fall-back fond
+  - font-fira-code   # My preferred font
+  - font-fira-mono   # Fira, but without ligatures
+  - google-hangouts  # Audio & video chatting
+  - handbrake        # Video conversion
+  - harvest          # Time tracking
+# - iexplorer
+# - inkscape
+  - iterm2           # Preferred Terminal
+  - limechat         # IRC chatting
+  - macdown          # Markdown editor WYSIWYG
+  - mactex           # LaTeX on macOS
+# - mailmate
+# - ngrok
+# - p4merge
+  - psequel          # PostgreSQL browser
+# - quickradar       # Post to openradar and apple at once (does not do 2FA)
+# - reveal           # For iOS UI debuggin
+# - rubymotion
+# - screenhero
+# - sketch
+  - skype            # More audio/video chatting
+  - slack            # Chat
+  - spectacle        # Resizing windows the easy way
+  - spotify          # Music
+  - sqlitebrowser    # SQLite browser
+  - teamviewer       # To provide remove support to relatives
+  - teensy           # Firmware updater for Ergodox
+  - the-unarchiver   # File decrompressor
+  - utorrent         # To borrow things from the internet
+# - viber
+  - whatsapp         # Meh
