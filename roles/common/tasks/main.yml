@@ -40,7 +40,7 @@
     - tree   # I love this util for printing a tree of directories
     - graphviz # To draw class diagrams
     - httpie # Improved web service testing
-    - ispell # Spell checking in emacs
+    - aspell # TODO --with-lang-nl --with-lang-en
     - clang  # Needs more clang
     - llvm   # For emacs's company-mode
     - cmake  # For emacs's company-mode
