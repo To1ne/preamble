@@ -10,15 +10,6 @@
 - name: Update homebrew
   homebrew: update_homebrew=yes
 
-- name: Tap homebrew cask
-  homebrew_tap: tap=caskroom/cask state=present
-
-- name: Install homebrew cask
-  homebrew: name="brew-cask" state=latest
-
-- name: Clean homebrew cask
-  shell: brew cask cleanup
-
 - name: Common utilities
   homebrew: name={{ item }} state=present
   tags:
@@ -56,7 +47,7 @@
 - name: Tap homebrew fonts
   homebrew_tap: tap=caskroom/fonts state=present
 
-- name: Install DejaVu Sans Mono
+- name: Install fonts
   homebrew_cask: name={{ item }} state=present
   with_items:
     - font-fira-code
