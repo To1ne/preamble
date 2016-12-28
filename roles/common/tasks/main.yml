@@ -46,6 +46,7 @@
     - cmake  # For emacs's company-mode
     - imagemagick # Convert all the things
     - trash  # Move to trash from the command line
+    - chruby # Ruby version manager
 
 #- name: Install pure (simple and sleak prompt)
 #  npm: name=pure-prompt global=yes
