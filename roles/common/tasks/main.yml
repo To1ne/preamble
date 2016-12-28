@@ -26,13 +26,12 @@
   with_items:
     - git
     - ag     # [A code-searching tool similar to ack, but faster](http://geoff.greer.fm/ag/)
-    - gh     # [Fast github command client](https://github.com/jingweno/gh)
-    - tmux   # [A better screen](http://tmux.sourceforge.net)
-    - links  # [Browse in the terminal](http://links.twibright.com)
-#    - ngrok  # [Easy way to get a public IP](https://ngrok.com)
+#    - tmux   # [A better screen](http://tmux.sourceforge.net)
+#    - links  # [Browse in the terminal](http://links.twibright.com)
+    - ngrok  # [Easy way to get a public IP](https://ngrok.com)
     - htop   # [A better top](http://hisham.hm/htop/)
     - heroku # Heroku Toolbelt
-    - mosh   # [A better ssh (sometimes)](https://mosh.mit.edu)
+#    - mosh   # [A better ssh (sometimes)](https://mosh.mit.edu)
     - tig    # A 'text-mode interface' for git. Bit more visual than regular git.
     - nvm    # Node.js version manager
     - git-flow
@@ -45,7 +44,7 @@
     - llvm   # For emacs's company-mode
     - cmake  # For emacs's company-mode
     - imagemagick # Convert all the things
-    - trash  # Move to trash from the command line
+#    - trash  # Move to trash from the command line
     - chruby # Ruby version manager
 
 - name: GNU global with ctags & pygments
@@ -60,5 +59,4 @@
 - name: Install DejaVu Sans Mono
   homebrew_cask: name={{ item }} state=present
   with_items:
-    - font-dejavu-sans
     - font-fira-code
