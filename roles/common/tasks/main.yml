@@ -48,6 +48,9 @@
     - trash  # Move to trash from the command line
     - chruby # Ruby version manager
 
+- name: GNU global with ctags & pygments
+  shell: brew install global --with-ctags --with-pygments
+
 #- name: Install pure (simple and sleak prompt)
 #  npm: name=pure-prompt global=yes
 
