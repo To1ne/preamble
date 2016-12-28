@@ -28,7 +28,7 @@
     - ag     # [A code-searching tool similar to ack, but faster](http://geoff.greer.fm/ag/)
 #    - tmux   # [A better screen](http://tmux.sourceforge.net)
 #    - links  # [Browse in the terminal](http://links.twibright.com)
-    - ngrok  # [Easy way to get a public IP](https://ngrok.com)
+#    - ngrok  # [Easy way to get a public IP](https://ngrok.com)
     - htop   # [A better top](http://hisham.hm/htop/)
     - heroku # Heroku Toolbelt
 #    - mosh   # [A better ssh (sometimes)](https://mosh.mit.edu)
@@ -40,7 +40,7 @@
     - graphviz # To draw class diagrams
     - httpie # Improved web service testing
     - aspell # TODO --with-lang-nl --with-lang-en
-    - clang  # Needs more clang
+#    - clang  # Needs more clang
     - llvm   # For emacs's company-mode
     - cmake  # For emacs's company-mode
     - imagemagick # Convert all the things

@@ -7,17 +7,17 @@
   - dash             # offline documentation
   - dropbox          # Files in the cloud
   - firefox          # The best browser out there
-  - font-dejavu-sans # Fall-back fond
+#  - font-dejavu-sans # Fall-back fond
   - font-fira-code   # My preferred font
-  - font-fira-mono   # Fira, but without ligatures
+#  - font-fira-mono   # Fira, but without ligatures
   - google-hangouts  # Audio & video chatting
   - handbrake        # Video conversion
-  - harvest          # Time tracking
+#  - harvest          # Time tracking
 # - iexplorer
 # - inkscape
-  - iterm2           # Preferred Terminal
-  - limechat         # IRC chatting
-  - macdown          # Markdown editor WYSIWYG
+#  - iterm2           # Preferred Terminal
+#  - limechat         # IRC chatting
+#  - macdown          # Markdown editor WYSIWYG
   - mactex           # LaTeX on macOS
 # - mailmate
 # - ngrok
@@ -33,9 +33,9 @@
   - spectacle        # Resizing windows the easy way
   - spotify          # Music
   - sqlitebrowser    # SQLite browser
-  - teamviewer       # To provide remove support to relatives
-  - teensy           # Firmware updater for Ergodox
-  - the-unarchiver   # File decrompressor
+#  - teamviewer       # To provide remove support to relatives
+#  - teensy           # Firmware updater for Ergodox
+#  - the-unarchiver   # File decrompressor
   - utorrent         # To borrow things from the internet
 # - viber
   - whatsapp         # Meh
