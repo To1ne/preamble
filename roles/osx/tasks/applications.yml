@@ -2,6 +2,7 @@
   homebrew_cask: name={{ item }} state=installed
   with_items:
   - 1password        # Password manager
+  - alfred           # Quick launcher
   - chromium         # Chrome, but less evil (I hope)
   - cyberduck        # FTP
   - dash             # offline documentation
