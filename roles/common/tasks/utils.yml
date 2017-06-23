@@ -1,0 +1,15 @@
+- name: Common utilities
+  homebrew: name={{ item }} state=present
+  with_items:
+    - ag          # [A code-searching tool similar to ack, but faster](http://geoff.greer.fm/ag/)
+    - chruby      # Ruby version manager
+    - git
+    - go          # Golang toolchain
+    - graphviz    # To draw class diagrams
+    - htop        # [A better top](http://hisham.hm/htop/)
+    - icu4c
+    - imagemagick # Convert all the things
+    - pandoc
+    - pkg-config
+    - tig         # A 'text-mode interface' for git. Bit more visual than regular git.
+    - tree        # I love this util for printing a tree of directories

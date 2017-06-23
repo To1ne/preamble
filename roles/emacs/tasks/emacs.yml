@@ -1,0 +1,34 @@
+- name: Utils/libs used inside emacs
+  homebrew:
+    state: present
+    name: {{ item }}
+  with_items:
+    - giflib       # to have gif support in emacs (not working yet)
+    - mailutils    # to receive mail
+    - sqlparse     # beautifies SQL queries
+
+- name: Aspell
+  homebrew:
+    name: aspell
+    state: present
+    install_options: with-lang-nl,with-lang-en
+
+- name: Python installer PIP
+  pip:
+    name: pygments
+
+- name: GNU global with ctags & pygments
+  homebrew:
+    name: global
+    state: present
+    install_options: with-pygments,with-exuberant-ctags=/usr/local/bin/ctags
+
+- name: GnuPG
+  homebrew:
+    name: gnupg@2.1
+    state: present
+# Related links:
+# - https://alexschroeder.ch/wiki/2016-03-17_GPG_Agent_and_Emacs
+# - https://colinxy.github.io/software-installation/2016/09/24/emacs25-easypg-issue.html
+# - https://github.com/ecraven/pinentry-emacs
+# - https://gist.github.com/jupp0r/08ca64b7c14c6093bba2

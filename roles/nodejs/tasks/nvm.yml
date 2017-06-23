@@ -1,0 +1,10 @@
+- name: Install Node Version Manager
+  homebrew:
+    name: nvm
+    state: present
+
+# TODO
+# - name: Check if there is a LTS installed
+#   command: nvm something
+
+# - name: Install latest long-term support version

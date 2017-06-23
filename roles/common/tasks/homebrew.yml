@@ -1,0 +1,11 @@
+- name: Check for homebrew
+  stat: path=/usr/local/Cellar
+  register: brew_installed
+
+- name: Install homebrew if needed
+  shell: >
+    ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+  when: brew_installed.stat.exists == false
+
+- name: Update homebrew
+  homebrew: update_homebrew=yes

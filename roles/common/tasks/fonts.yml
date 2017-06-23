@@ -1,0 +1,9 @@
+- name: Tap homebrew fonts
+  homebrew_tap:
+    tap: caskroom/fonts
+    state: present
+
+- name: Install fonts
+  homebrew_cask: name={{ item }} state=present
+  with_items:
+    - font-fira-code

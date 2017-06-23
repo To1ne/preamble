@@ -1,4 +1,4 @@
-- name: Fetchez la mail
+- name: Fetch and serve mail
   homebrew: name={{ item }} state=present
   with_items:
     - isync

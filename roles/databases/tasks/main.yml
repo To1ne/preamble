@@ -1,11 +1,13 @@
 - name: Install Postgres (with workaround for DP7)
-  homebrew: name=postgres state=present install_options=no-perl
-
-# ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
-# launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
-# pg_ctl -D /usr/local/var/postgres restart
-
-- name: Install MariaDB
-  homebrew: name=mariadb state=present
+  homebrew:
+    name: postgres
+    state: present
+    install_options: no-perl
+- name: Install MySQL
+  homebrew:
+    name: mysql
+    state: present
 - name: Install Redis
-  homebrew: name=redis state=present
+  homebrew:
+    name: redis
+    state: present

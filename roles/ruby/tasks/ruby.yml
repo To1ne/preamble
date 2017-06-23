@@ -8,3 +8,9 @@
   vars:
     rubies:
        - {flavor: "ruby", version: "2.3.1"}
+
+
+# bundler
+# gitlab-development-kit
+# lolcommits
+#

@@ -1,0 +1,11 @@
+---
+- name: Install the gems
+
+- name: Install ruby-install
+  homebrew: name=ruby-install state=present
+- include: ruby-install.yml rubies={{ rubies }}
+  vars:
+  with_items:
+    - bundler                           # Much needed
+    - gitlab-development-kit            # Good stuff
+    - lolcommits                        # Add some fun to commits
