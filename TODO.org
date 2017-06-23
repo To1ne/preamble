@@ -1,0 +1,7 @@
+* To try
+
+- [ ] koekeishiya/formulae/kwm
+- [ ] Karabiner-Elements
+- [ ] mattr-slate or hammerspoon
+
+* Trying
